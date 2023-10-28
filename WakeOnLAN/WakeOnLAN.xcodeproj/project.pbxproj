@@ -15,11 +15,11 @@
 		C479D9AA2AED40EF00DB86D5 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = C479D9A92AED40EF00DB86D5 /* InfoPlist.xcstrings */; };
 		C479D9B42AED495900DB86D5 /* libwol_lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C479D9B32AED495900DB86D5 /* libwol_lib.a */; };
 		C479D9C22AED903D00DB86D5 /* NetworkNodeStatusController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C479D9C12AED903D00DB86D5 /* NetworkNodeStatusController.swift */; };
+		C479D9C42AED9E4C00DB86D5 /* ServiceTypesBrowserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C479D9C32AED9E4C00DB86D5 /* ServiceTypesBrowserController.swift */; };
 		FE28367D130387E9003C71DE /* PowerButton.icns in Resources */ = {isa = PBXBuildFile; fileRef = FE28367C130387E9003C71DE /* PowerButton.icns */; };
 		FEA9DD6E132F015D00C4E878 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA9DD6D132F015D00C4E878 /* red.png */; };
 		FEA9DD70132F016300C4E878 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA9DD6F132F016300C4E878 /* green.png */; };
 		FEB4EA1A1308E7A8006F93A4 /* NodeImageValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB4EA191308E7A8006F93A4 /* NodeImageValueTransformer.m */; };
-		FEBE393F1322BFC6008B554C /* ServiceTypesBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBE393E1322BFC6008B554C /* ServiceTypesBrowserController.m */; };
 		FEBFCD211310E00E00E36CD1 /* ServiceBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBFCD201310E00E00E36CD1 /* ServiceBrowserController.m */; };
 		FEC91E6B1311B3D2002D4508 /* ResolvedService.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC91E6A1311B3D2002D4508 /* ResolvedService.m */; };
 		FECA3EC41306D386006BA6D0 /* StatusValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = FECA3EC31306D386006BA6D0 /* StatusValueTransformer.m */; };
@@ -45,13 +45,12 @@
 		C479D9B32AED495900DB86D5 /* libwol_lib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libwol_lib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C479D9BD2AED8E0500DB86D5 /* WakeOnLAN-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WakeOnLAN-Bridging-Header.h"; sourceTree = "<group>"; };
 		C479D9C12AED903D00DB86D5 /* NetworkNodeStatusController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkNodeStatusController.swift; sourceTree = "<group>"; };
+		C479D9C32AED9E4C00DB86D5 /* ServiceTypesBrowserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceTypesBrowserController.swift; sourceTree = "<group>"; };
 		FE28367C130387E9003C71DE /* PowerButton.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = PowerButton.icns; sourceTree = "<group>"; };
 		FEA9DD6D132F015D00C4E878 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
 		FEA9DD6F132F016300C4E878 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
 		FEB4EA181308E7A8006F93A4 /* NodeImageValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeImageValueTransformer.h; sourceTree = "<group>"; };
 		FEB4EA191308E7A8006F93A4 /* NodeImageValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NodeImageValueTransformer.m; sourceTree = "<group>"; };
-		FEBE393D1322BFC6008B554C /* ServiceTypesBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceTypesBrowserController.h; sourceTree = "<group>"; };
-		FEBE393E1322BFC6008B554C /* ServiceTypesBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceTypesBrowserController.m; sourceTree = "<group>"; };
 		FEBFCC0D131074AA00E36CD1 /* wol_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wol_lib.h; sourceTree = "<group>"; };
 		FEBFCD1F1310E00E00E36CD1 /* ServiceBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceBrowserController.h; sourceTree = "<group>"; };
 		FEBFCD201310E00E00E36CD1 /* ServiceBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceBrowserController.m; sourceTree = "<group>"; };
@@ -85,9 +84,8 @@
 				FEBFCD201310E00E00E36CD1 /* ServiceBrowserController.m */,
 				FEC91E691311B3D2002D4508 /* ResolvedService.h */,
 				FEC91E6A1311B3D2002D4508 /* ResolvedService.m */,
-				FEBE393D1322BFC6008B554C /* ServiceTypesBrowserController.h */,
-				FEBE393E1322BFC6008B554C /* ServiceTypesBrowserController.m */,
 				C479D9C12AED903D00DB86D5 /* NetworkNodeStatusController.swift */,
+				C479D9C32AED9E4C00DB86D5 /* ServiceTypesBrowserController.swift */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -272,7 +270,7 @@
 				FEBFCD211310E00E00E36CD1 /* ServiceBrowserController.m in Sources */,
 				C479D9C22AED903D00DB86D5 /* NetworkNodeStatusController.swift in Sources */,
 				FEC91E6B1311B3D2002D4508 /* ResolvedService.m in Sources */,
-				FEBE393F1322BFC6008B554C /* ServiceTypesBrowserController.m in Sources */,
+				C479D9C42AED9E4C00DB86D5 /* ServiceTypesBrowserController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

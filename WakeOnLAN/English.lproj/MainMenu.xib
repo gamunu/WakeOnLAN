@@ -11,7 +11,7 @@
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
-        <customObject id="-3" userLabel="Application">
+        <customObject id="-3" userLabel="Application" customClass="NSObject">
             <connections>
                 <outlet property="delegate" destination="986" id="993"/>
             </connections>
@@ -36,7 +36,7 @@
                             <subviews>
                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" headerView="526" id="525">
                                     <rect key="frame" x="0.0" y="0.0" width="416" height="217"/>
-                                    <autoresizingMask key="autoresizingMask"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <size key="intercellSpacing" width="3" height="2"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
@@ -71,7 +71,7 @@
                                                 </binding>
                                             </connections>
                                         </tableColumn>
-                                        <tableColumn width="318" minWidth="10" maxWidth="3.4028234663852886e+38" id="531">
+                                        <tableColumn width="289" minWidth="10" maxWidth="3.4028234663852886e+38" id="531">
                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Name">
                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
@@ -264,7 +264,7 @@
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="604" id="602">
                                         <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                        <font key="font" metaFont="system"/>
+                                        <font key="font" metaFont="menu"/>
                                         <menu key="menu" title="OtherViews" id="603">
                                             <items>
                                                 <menuItem title="Item 1" state="on" id="604"/>
@@ -285,7 +285,7 @@
                     <button imageHugsTitle="YES" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="888">
                         <rect key="frame" x="14" y="12" width="109" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="Browser" bezelStyle="rounded" image="NSBonjour" catalog="system" imagePosition="leading" alignment="center" alternateImage="NSBonjour" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="889">
+                        <buttonCell key="cell" type="push" title="Browser" bezelStyle="rounded" image="NSBonjour" imagePosition="leading" alignment="center" alternateImage="NSBonjour" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="889">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
@@ -896,11 +896,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <clipView key="contentView" id="pvc-NC-xPx">
                             <rect key="frame" x="1" y="1" width="571" height="211"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <autoresizingMask key="autoresizingMask"/>
                             <subviews>
                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" headerView="619" id="618">
                                     <rect key="frame" x="0.0" y="0.0" width="571" height="183"/>
-                                    <autoresizingMask key="autoresizingMask"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <size key="intercellSpacing" width="3" height="2"/>
                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                     <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
@@ -950,7 +950,7 @@
                                                 <binding destination="565" name="value" keyPath="arrangedObjects.lastName" id="642"/>
                                             </connections>
                                         </tableColumn>
-                                        <tableColumn width="279" minWidth="10" maxWidth="3.4028234663852886e+38" id="628">
+                                        <tableColumn width="250" minWidth="10" maxWidth="3.4028234663852886e+38" id="628">
                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Email">
                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
@@ -1035,7 +1035,7 @@
                             <subviews>
                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" headerView="909" id="910">
                                     <rect key="frame" x="0.0" y="0.0" width="653" height="183"/>
-                                    <autoresizingMask key="autoresizingMask"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <size key="intercellSpacing" width="3" height="2"/>
                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                     <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
@@ -1085,7 +1085,7 @@
                                                 <binding destination="984" name="value" keyPath="arrangedObjects.ipAddr" id="1016"/>
                                             </connections>
                                         </tableColumn>
-                                        <tableColumn width="167" minWidth="10" maxWidth="3.4028234663852886e+38" id="913">
+                                        <tableColumn width="138" minWidth="10" maxWidth="3.4028234663852886e+38" id="913">
                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="MAC Address">
                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
@@ -1142,7 +1142,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="938" id="936">
                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
+                            <font key="font" metaFont="menu"/>
                             <menu key="menu" title="OtherViews" id="937">
                                 <items>
                                     <menuItem title="Item 1" state="on" id="938"/>
@@ -1171,7 +1171,7 @@
                     <imageView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1034">
                         <rect key="frame" x="17" y="264" width="35" height="23"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="NSBonjour" catalog="system" id="1035"/>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="NSBonjour" id="1035"/>
                     </imageView>
                     <progressIndicator wantsLayer="YES" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" maxValue="100" displayedWhenStopped="NO" bezeled="NO" indeterminate="YES" controlSize="small" style="spinning" translatesAutoresizingMaskIntoConstraints="NO" id="1047">
                         <rect key="frame" x="170" y="267" width="16" height="16"/>
@@ -1202,6 +1202,7 @@
                 <string>macAddr</string>
                 <string>name</string>
             </declaredKeys>
+            <classReference key="objectClass" className="NSNetService"/>
             <connections>
                 <binding destination="986" name="contentArray" keyPath="services" id="991"/>
             </connections>
@@ -1226,7 +1227,7 @@
         </customObject>
     </objects>
     <resources>
-        <image name="NSBonjour" catalog="system" width="32" height="32"/>
+        <image name="NSBonjour" width="32" height="32"/>
         <image name="PowerButton3D" width="128" height="128"/>
     </resources>
 </document>
