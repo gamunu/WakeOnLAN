@@ -1,7 +1,7 @@
 WakeOnLAN
 =========
 
-![wol screenshot](https://github.com/gamunu/wake-on-lan/raw/master/docs/wol-main-display.png)
+![](<docs/wol-main-display.png>)
 
 Mac OS X utility application to find hosts on a LAN based on their advertised services, display their awake status, and send a "magic packet" to wake up specific hosts configured for wake on LAN.
 
