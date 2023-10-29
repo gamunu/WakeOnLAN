@@ -24,7 +24,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface ResolvedService : NSManagedObject {
+@interface ResolvedService : NSObject {
 	
 	NSString *host;
 	NSString *domain;

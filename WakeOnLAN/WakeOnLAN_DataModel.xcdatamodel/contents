@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22225" systemVersion="23A344" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="NetworkNode" representedClassName="NSManagedObject" syncable="YES">
+        <attribute name="domain" optional="YES" attributeType="String"/>
+        <attribute name="host" attributeType="String" defaultValueString="New Network Node"/>
+        <attribute name="icon" optional="YES" attributeType="String"/>
+        <attribute name="ipAddr" optional="YES" attributeType="String"/>
+        <attribute name="macAddr" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="NO"/>
+        <relationship name="owner" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Owner" inverseName="networkNodes" inverseEntity="Owner" indexed="YES"/>
+        <relationship name="services" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Service" inverseName="networkNodes" inverseEntity="Service" indexed="YES"/>
+    </entity>
+    <entity name="Owner" representedClassName="NSManagedObject" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="firstName" optional="YES" attributeType="String"/>
+        <attribute name="lastName" optional="YES" attributeType="String"/>
+        <attribute name="nickName" optional="YES" attributeType="String"/>
+        <relationship name="networkNodes" toMany="YES" minCount="1" deletionRule="Nullify" destinationEntity="NetworkNode" inverseName="owner" inverseEntity="NetworkNode" indexed="YES"/>
+    </entity>
+    <entity name="Service" representedClassName="NSManagedObject" syncable="YES">
+        <attribute name="identifier" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="networkNodes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="NetworkNode" inverseName="services" inverseEntity="NetworkNode" indexed="YES"/>
+    </entity>
+</model>
