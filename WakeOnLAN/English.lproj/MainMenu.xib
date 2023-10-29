@@ -20,7 +20,7 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="318" y="636" width="785" height="313"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1440"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1415"/>
             <value key="minSize" type="size" width="785" height="313"/>
             <value key="maxSize" type="size" width="785" height="313"/>
             <view key="contentView" id="2">
@@ -49,7 +49,7 @@
                                             <imageCell key="dataCell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="533"/>
                                             <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                             <connections>
-                                                <binding destination="564" name="value" keyPath="arrangedObjects.status" id="852">
+                                                <binding destination="564" name="value" keyPath="arrangedObjects.status" id="9ra-il-XDs">
                                                     <dictionary key="options">
                                                         <string key="NSValueTransformerName">StatusValueTransformer</string>
                                                     </dictionary>
@@ -886,7 +886,7 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" resizable="YES" utility="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="779" y="647" width="571" height="289"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1440"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1415"/>
             <view key="contentView" id="614">
                 <rect key="frame" x="0.0" y="0.0" width="571" height="289"/>
                 <autoresizingMask key="autoresizingMask"/>
@@ -896,7 +896,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <clipView key="contentView" id="pvc-NC-xPx">
                             <rect key="frame" x="1" y="1" width="571" height="211"/>
-                            <autoresizingMask key="autoresizingMask"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" headerView="619" id="618">
                                     <rect key="frame" x="0.0" y="0.0" width="571" height="183"/>
@@ -1021,7 +1021,7 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" utility="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="321" y="316" width="695" height="292"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1440"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1415"/>
             <view key="contentView" id="904">
                 <rect key="frame" x="0.0" y="0.0" width="695" height="292"/>
                 <autoresizingMask key="autoresizingMask"/>

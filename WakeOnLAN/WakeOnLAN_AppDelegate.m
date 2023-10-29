@@ -23,7 +23,7 @@
 */
 
 #import "WakeOnLAN_AppDelegate.h"
-#import "StatusValueTransformer.h"
+#import "WakeOnLAN-Swift.h"
 #import "ResolvedService.h"
 
 
@@ -31,6 +31,16 @@
 
 @synthesize window;
 
+/**
+  *
+ */
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+    NSValueTransformerName const StatusValueTransformerName = @"StatusValueTransformer";
+    [NSValueTransformer setValueTransformer:[[StatusValueTransformer alloc] init] forName:StatusValueTransformerName];
+    
+    NSValueTransformerName const NodeImageValueTransformerName = @"NodeImageValueTransformer";
+    [NSValueTransformer setValueTransformer:[[NodeImageValueTransformer alloc] init] forName:NodeImageValueTransformerName];
+}
 
 /**
  * Returns the support directory for the application, used to store the Core Data
