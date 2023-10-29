@@ -24,7 +24,6 @@
 
 #import "WakeOnLAN_AppDelegate.h"
 #import "WakeOnLAN-Swift.h"
-#import "ResolvedService.h"
 
 
 @implementation WakeOnLAN_AppDelegate

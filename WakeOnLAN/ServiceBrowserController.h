@@ -23,7 +23,7 @@
  */
 
 #import <Cocoa/Cocoa.h>
-#import "ResolvedService.h"
+#import "WakeOnLAN-Swift.h"
 
 
 
