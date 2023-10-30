@@ -9,9 +9,13 @@
 /* Begin PBXBuildFile section */
 		2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F7446970DB6B7EA00F9684A /* MainMenu.xib */; };
 		770B37ED0679A11B001EADE2 /* WakeOnLAN_DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* WakeOnLAN_DataModel.xcdatamodel */; };
-		77C8280E06725ACE000B614F /* WakeOnLAN_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* WakeOnLAN_AppDelegate.m */; };
-		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		C40EB12B2AF02DAF002E1670 /* Service+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40EB1252AF02DAF002E1670 /* Service+CoreDataClass.swift */; };
+		C40EB12C2AF02DAF002E1670 /* Service+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40EB1262AF02DAF002E1670 /* Service+CoreDataProperties.swift */; };
+		C40EB12D2AF02DAF002E1670 /* NetworkNode+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40EB1272AF02DAF002E1670 /* NetworkNode+CoreDataClass.swift */; };
+		C40EB12E2AF02DAF002E1670 /* NetworkNode+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40EB1282AF02DAF002E1670 /* NetworkNode+CoreDataProperties.swift */; };
+		C40EB12F2AF02DAF002E1670 /* Owner+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40EB1292AF02DAF002E1670 /* Owner+CoreDataClass.swift */; };
+		C40EB1302AF02DAF002E1670 /* Owner+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40EB12A2AF02DAF002E1670 /* Owner+CoreDataProperties.swift */; };
 		C479D9AA2AED40EF00DB86D5 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = C479D9A92AED40EF00DB86D5 /* InfoPlist.xcstrings */; };
 		C479D9B42AED495900DB86D5 /* libwol_lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C479D9B32AED495900DB86D5 /* libwol_lib.a */; };
 		C479D9C22AED903D00DB86D5 /* NetworkNodeStatusController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C479D9C12AED903D00DB86D5 /* NetworkNodeStatusController.swift */; };
@@ -20,6 +24,7 @@
 		C4E194422AEED67C004F94C8 /* NodeImageValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E194412AEED67C004F94C8 /* NodeImageValueTransformer.swift */; };
 		C4E194442AEEDCA4004F94C8 /* ResolvedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E194432AEEDCA4004F94C8 /* ResolvedService.swift */; };
 		C4E194462AEF015E004F94C8 /* ServiceBrowserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E194452AEF015E004F94C8 /* ServiceBrowserController.swift */; };
+		C4F2DF942AEFA7C2001C3339 /* WakeOnLAN_AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F2DF932AEFA7C2001C3339 /* WakeOnLAN_AppDelegate.swift */; };
 		FE28367D130387E9003C71DE /* PowerButton.icns in Resources */ = {isa = PBXBuildFile; fileRef = FE28367C130387E9003C71DE /* PowerButton.icns */; };
 		FEA9DD6E132F015D00C4E878 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA9DD6D132F015D00C4E878 /* red.png */; };
 		FEA9DD70132F016300C4E878 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA9DD6F132F016300C4E878 /* green.png */; };
@@ -28,17 +33,20 @@
 
 /* Begin PBXFileReference section */
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		2F7446980DB6B7EA00F9684A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* WakeOnLAN_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WakeOnLAN_Prefix.pch; sourceTree = "<group>"; };
 		770B37EC0679A11B001EADE2 /* WakeOnLAN_DataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = WakeOnLAN_DataModel.xcdatamodel; sourceTree = "<group>"; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
-		77C8280B06725ACE000B614F /* WakeOnLAN_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WakeOnLAN_AppDelegate.h; sourceTree = "<group>"; };
-		77C8280C06725ACE000B614F /* WakeOnLAN_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WakeOnLAN_AppDelegate.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* WakeOnLAN-Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = "WakeOnLAN-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* WakeOnLAN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WakeOnLAN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40EB1252AF02DAF002E1670 /* Service+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Service+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C40EB1262AF02DAF002E1670 /* Service+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Service+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C40EB1272AF02DAF002E1670 /* NetworkNode+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkNode+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C40EB1282AF02DAF002E1670 /* NetworkNode+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkNode+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C40EB1292AF02DAF002E1670 /* Owner+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Owner+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C40EB12A2AF02DAF002E1670 /* Owner+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Owner+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		C479D9A92AED40EF00DB86D5 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 		C479D9AB2AED435400DB86D5 /* PowerButton.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = PowerButton.icns; sourceTree = "<group>"; };
 		C479D9B32AED495900DB86D5 /* libwol_lib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libwol_lib.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +57,7 @@
 		C4E194412AEED67C004F94C8 /* NodeImageValueTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeImageValueTransformer.swift; sourceTree = "<group>"; };
 		C4E194432AEEDCA4004F94C8 /* ResolvedService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResolvedService.swift; sourceTree = "<group>"; };
 		C4E194452AEF015E004F94C8 /* ServiceBrowserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceBrowserController.swift; sourceTree = "<group>"; };
+		C4F2DF932AEFA7C2001C3339 /* WakeOnLAN_AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeOnLAN_AppDelegate.swift; sourceTree = "<group>"; };
 		FE28367C130387E9003C71DE /* PowerButton.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = PowerButton.icns; sourceTree = "<group>"; };
 		FEA9DD6D132F015D00C4E878 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
 		FEA9DD6F132F016300C4E878 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
@@ -72,12 +81,11 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				77C8280B06725ACE000B614F /* WakeOnLAN_AppDelegate.h */,
-				77C8280C06725ACE000B614F /* WakeOnLAN_AppDelegate.m */,
 				C479D9C12AED903D00DB86D5 /* NetworkNodeStatusController.swift */,
 				C479D9C32AED9E4C00DB86D5 /* ServiceTypesBrowserController.swift */,
 				C4E194432AEEDCA4004F94C8 /* ResolvedService.swift */,
 				C4E194452AEF015E004F94C8 /* ServiceBrowserController.swift */,
+				C4F2DF932AEFA7C2001C3339 /* WakeOnLAN_AppDelegate.swift */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -127,7 +135,6 @@
 			children = (
 				FEBFCC0D131074AA00E36CD1 /* wol_lib.h */,
 				32CA4F630368D1EE00C91783 /* WakeOnLAN_Prefix.pch */,
-				29B97316FDCFA39411CA2CEA /* main.m */,
 				C479D9BD2AED8E0500DB86D5 /* WakeOnLAN-Bridging-Header.h */,
 			);
 			name = "Other Sources";
@@ -161,6 +168,12 @@
 		7756732906782D8800D1FEB8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C40EB1252AF02DAF002E1670 /* Service+CoreDataClass.swift */,
+				C40EB1262AF02DAF002E1670 /* Service+CoreDataProperties.swift */,
+				C40EB1272AF02DAF002E1670 /* NetworkNode+CoreDataClass.swift */,
+				C40EB1282AF02DAF002E1670 /* NetworkNode+CoreDataProperties.swift */,
+				C40EB1292AF02DAF002E1670 /* Owner+CoreDataClass.swift */,
+				C40EB12A2AF02DAF002E1670 /* Owner+CoreDataProperties.swift */,
 				770B37EC0679A11B001EADE2 /* WakeOnLAN_DataModel.xcdatamodel */,
 			);
 			name = Models;
@@ -250,15 +263,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				C4F2DF942AEFA7C2001C3339 /* WakeOnLAN_AppDelegate.swift in Sources */,
 				C4E194442AEEDCA4004F94C8 /* ResolvedService.swift in Sources */,
+				C40EB12B2AF02DAF002E1670 /* Service+CoreDataClass.swift in Sources */,
 				C4E194402AEEBA1F004F94C8 /* StatusValueTransformer.swift in Sources */,
-				77C8280E06725ACE000B614F /* WakeOnLAN_AppDelegate.m in Sources */,
 				770B37ED0679A11B001EADE2 /* WakeOnLAN_DataModel.xcdatamodel in Sources */,
 				C4E194462AEF015E004F94C8 /* ServiceBrowserController.swift in Sources */,
+				C40EB12E2AF02DAF002E1670 /* NetworkNode+CoreDataProperties.swift in Sources */,
 				C479D9C22AED903D00DB86D5 /* NetworkNodeStatusController.swift in Sources */,
+				C40EB12F2AF02DAF002E1670 /* Owner+CoreDataClass.swift in Sources */,
 				C479D9C42AED9E4C00DB86D5 /* ServiceTypesBrowserController.swift in Sources */,
+				C40EB12C2AF02DAF002E1670 /* Service+CoreDataProperties.swift in Sources */,
+				C40EB12D2AF02DAF002E1670 /* NetworkNode+CoreDataClass.swift in Sources */,
 				C4E194422AEED67C004F94C8 /* NodeImageValueTransformer.swift in Sources */,
+				C40EB1302AF02DAF002E1670 /* Owner+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

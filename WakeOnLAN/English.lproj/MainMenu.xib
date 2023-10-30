@@ -226,7 +226,7 @@
                                     </textFieldCell>
                                 </textField>
                                 <imageView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="593">
-                                    <rect key="frame" x="10" y="-1" width="107" height="99"/>
+                                    <rect key="frame" x="10" y="5" width="107" height="99"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" imageFrameStyle="grayBezel" id="594"/>
                                     <connections>
@@ -298,7 +298,7 @@
             <connections>
                 <outlet property="delegate" destination="205" id="207"/>
             </connections>
-            <point key="canvasLocation" x="14" y="144"/>
+            <point key="canvasLocation" x="48" y="144"/>
         </window>
         <menu title="MainMenu" systemMenu="main" id="29" userLabel="MainMenu">
             <items>
