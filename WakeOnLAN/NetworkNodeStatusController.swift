@@ -102,7 +102,7 @@ class NetworkNodeStatusController: NSObject, NetServiceBrowserDelegate {
     ///   - service: Network service found by netServiceBrowser. The delegate can use this object to connect to and use the service.
     ///   - moreComing: True when netServiceBrowser is waiting for additional services. False when there are no additional services.
     func netServiceBrowser(_ browser: NetServiceBrowser, didRemove service: NetService, moreComing: Bool) {
-        print("Remove Service: \(service.name)")
+        // print("Remove Service: \(service.name)")
         
         if let managedObject = managedObjectForService(service) {
             managedObject.setValue(false, forKey: "status")
