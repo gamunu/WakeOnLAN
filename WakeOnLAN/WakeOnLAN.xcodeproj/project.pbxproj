@@ -36,7 +36,6 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		2F7446980DB6B7EA00F9684A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		32CA4F630368D1EE00C91783 /* WakeOnLAN_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WakeOnLAN_Prefix.pch; sourceTree = "<group>"; };
 		770B37EC0679A11B001EADE2 /* WakeOnLAN_DataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = WakeOnLAN_DataModel.xcdatamodel; sourceTree = "<group>"; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* WakeOnLAN-Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = "WakeOnLAN-Info.plist"; sourceTree = "<group>"; };
@@ -134,7 +133,6 @@
 			isa = PBXGroup;
 			children = (
 				FEBFCC0D131074AA00E36CD1 /* wol_lib.h */,
-				32CA4F630368D1EE00C91783 /* WakeOnLAN_Prefix.pch */,
 				C479D9BD2AED8E0500DB86D5 /* WakeOnLAN-Bridging-Header.h */,
 			);
 			name = "Other Sources";

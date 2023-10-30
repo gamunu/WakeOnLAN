@@ -29,7 +29,7 @@ class ServiceTypesBrowserController: NSObject, NetServiceBrowserDelegate, NetSer
         self.browser = NetServiceBrowser()
         self.browser?.delegate = self
         
-        self.browser?.searchForServices(ofType: "_services._dns-sd._udp.", inDomain: "local.")
+        self.browser?.searchForServices(ofType: "_services._dns-sd._udp.", inDomain: "")
     }
     
     deinit {
