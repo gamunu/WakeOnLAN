@@ -9,10 +9,11 @@ import Foundation
 import AppKit
 
 @objc(ServiceTypesBrowserController)
+@objcMembers
 class ServiceTypesBrowserController: NSObject, NetServiceBrowserDelegate, NetServiceDelegate {
     
     var browser: NetServiceBrowser?
-    @IBOutlet var services: NSMutableArray!
+    var services: NSMutableArray!
     @IBOutlet var serviceTypesController: NSArrayController!
     
     /**
@@ -24,7 +25,7 @@ class ServiceTypesBrowserController: NSObject, NetServiceBrowserDelegate, NetSer
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        services = NSMutableArray()
+        self.services = NSMutableArray()
         self.browser = NetServiceBrowser()
         self.browser?.delegate = self
         

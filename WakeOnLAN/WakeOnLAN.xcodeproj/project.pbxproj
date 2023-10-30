@@ -19,12 +19,11 @@
 		C4E194402AEEBA1F004F94C8 /* StatusValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E1943F2AEEBA1F004F94C8 /* StatusValueTransformer.swift */; };
 		C4E194422AEED67C004F94C8 /* NodeImageValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E194412AEED67C004F94C8 /* NodeImageValueTransformer.swift */; };
 		C4E194442AEEDCA4004F94C8 /* ResolvedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E194432AEEDCA4004F94C8 /* ResolvedService.swift */; };
+		C4E194462AEF015E004F94C8 /* ServiceBrowserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E194452AEF015E004F94C8 /* ServiceBrowserController.swift */; };
 		FE28367D130387E9003C71DE /* PowerButton.icns in Resources */ = {isa = PBXBuildFile; fileRef = FE28367C130387E9003C71DE /* PowerButton.icns */; };
 		FEA9DD6E132F015D00C4E878 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA9DD6D132F015D00C4E878 /* red.png */; };
 		FEA9DD70132F016300C4E878 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA9DD6F132F016300C4E878 /* green.png */; };
-		FEBFCD211310E00E00E36CD1 /* ServiceBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBFCD201310E00E00E36CD1 /* ServiceBrowserController.m */; };
 		FEDC22A6149ECCD600219C88 /* PowerButton3D.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDC22A5149ECCD600219C88 /* PowerButton3D.png */; };
-		FEE6120316BD74D300169986 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FEE6120216BD74D300169986 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,14 +48,12 @@
 		C4E1943F2AEEBA1F004F94C8 /* StatusValueTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusValueTransformer.swift; sourceTree = "<group>"; };
 		C4E194412AEED67C004F94C8 /* NodeImageValueTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeImageValueTransformer.swift; sourceTree = "<group>"; };
 		C4E194432AEEDCA4004F94C8 /* ResolvedService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResolvedService.swift; sourceTree = "<group>"; };
+		C4E194452AEF015E004F94C8 /* ServiceBrowserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceBrowserController.swift; sourceTree = "<group>"; };
 		FE28367C130387E9003C71DE /* PowerButton.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = PowerButton.icns; sourceTree = "<group>"; };
 		FEA9DD6D132F015D00C4E878 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
 		FEA9DD6F132F016300C4E878 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
 		FEBFCC0D131074AA00E36CD1 /* wol_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wol_lib.h; sourceTree = "<group>"; };
-		FEBFCD1F1310E00E00E36CD1 /* ServiceBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceBrowserController.h; sourceTree = "<group>"; };
-		FEBFCD201310E00E00E36CD1 /* ServiceBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceBrowserController.m; sourceTree = "<group>"; };
 		FEDC22A5149ECCD600219C88 /* PowerButton3D.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PowerButton3D.png; sourceTree = "<group>"; };
-		FEE6120216BD74D300169986 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +74,10 @@
 			children = (
 				77C8280B06725ACE000B614F /* WakeOnLAN_AppDelegate.h */,
 				77C8280C06725ACE000B614F /* WakeOnLAN_AppDelegate.m */,
-				FEBFCD1F1310E00E00E36CD1 /* ServiceBrowserController.h */,
-				FEBFCD201310E00E00E36CD1 /* ServiceBrowserController.m */,
 				C479D9C12AED903D00DB86D5 /* NetworkNodeStatusController.swift */,
 				C479D9C32AED9E4C00DB86D5 /* ServiceTypesBrowserController.swift */,
 				C4E194432AEEDCA4004F94C8 /* ResolvedService.swift */,
+				C4E194452AEF015E004F94C8 /* ServiceBrowserController.swift */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -115,7 +111,6 @@
 		29B97314FDCFA39411CA2CEA /* WakeOnLAN */ = {
 			isa = PBXGroup;
 			children = (
-				FEE6120216BD74D300169986 /* README.md */,
 				FECA3EC11306D347006BA6D0 /* Value Transformers */,
 				7756732906782D8800D1FEB8 /* Models */,
 				080E96DDFE201D6D7F000001 /* Classes */,
@@ -245,7 +240,6 @@
 				FEA9DD6E132F015D00C4E878 /* red.png in Resources */,
 				FEA9DD70132F016300C4E878 /* green.png in Resources */,
 				FEDC22A6149ECCD600219C88 /* PowerButton3D.png in Resources */,
-				FEE6120316BD74D300169986 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +255,7 @@
 				C4E194402AEEBA1F004F94C8 /* StatusValueTransformer.swift in Sources */,
 				77C8280E06725ACE000B614F /* WakeOnLAN_AppDelegate.m in Sources */,
 				770B37ED0679A11B001EADE2 /* WakeOnLAN_DataModel.xcdatamodel in Sources */,
-				FEBFCD211310E00E00E36CD1 /* ServiceBrowserController.m in Sources */,
+				C4E194462AEF015E004F94C8 /* ServiceBrowserController.swift in Sources */,
 				C479D9C22AED903D00DB86D5 /* NetworkNodeStatusController.swift in Sources */,
 				C479D9C42AED9E4C00DB86D5 /* ServiceTypesBrowserController.swift in Sources */,
 				C4E194422AEED67C004F94C8 /* NodeImageValueTransformer.swift in Sources */,
