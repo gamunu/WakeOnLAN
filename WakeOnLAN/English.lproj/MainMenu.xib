@@ -23,7 +23,7 @@
             <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1415"/>
             <value key="minSize" type="size" width="785" height="313"/>
             <value key="maxSize" type="size" width="785" height="313"/>
-            <view key="contentView" id="2">
+            <view key="contentView" clipsToBounds="YES" id="2">
                 <rect key="frame" x="0.0" y="0.0" width="785" height="313"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
@@ -887,7 +887,7 @@
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="779" y="647" width="571" height="289"/>
             <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1415"/>
-            <view key="contentView" id="614">
+            <view key="contentView" clipsToBounds="YES" id="614">
                 <rect key="frame" x="0.0" y="0.0" width="571" height="289"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
@@ -1022,7 +1022,7 @@
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="321" y="316" width="695" height="292"/>
             <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1415"/>
-            <view key="contentView" id="904">
+            <view key="contentView" clipsToBounds="YES" id="904">
                 <rect key="frame" x="0.0" y="0.0" width="695" height="292"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
