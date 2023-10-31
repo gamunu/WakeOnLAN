@@ -26,7 +26,7 @@ class ResolvedService: NSObject {
         self.host = service.name
         self.domain = service.domain
         self.type = service.type
-        self.status = true
+        self.status = false
         self.owner = ""
         self.icon = ""
         self.name = ""

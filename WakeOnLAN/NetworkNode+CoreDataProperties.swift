@@ -21,7 +21,7 @@ extension NetworkNode {
     @NSManaged public var icon: String?
     @NSManaged public var ipAddr: String?
     @NSManaged public var macAddr: String?
-    @NSManaged public var status: NSNumber?
+    @NSManaged public var status: Bool
     @NSManaged public var owner: Owner?
     @NSManaged public var services: NSSet?
 
